@@ -3,14 +3,16 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+from pathlib import Path
 
 # 1) Page setup
 st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="wide")
 
 # 2) Load the trained model (once)
+MODEL_PATH = Path(__file__).parent / "house_model.pkl"
 @st.cache_resource
 def load_model():
-    return joblib.load("house_model.pkl")
+    return joblib.load(MODEL_PATH)
 
 model = load_model()
 
