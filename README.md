@@ -2,6 +2,12 @@
 
 A machine learning project that predicts the price of a house in the Boston area using a **Decision Tree Regressor**, with an interactive **Streamlit** web app to explore how each feature affects the price.
 
+## 🌐 Live Demo
+
+👉 **Try the app online:** [Boston House Price Predictor](https://machinelearning-project-feru5whjh836nnfrv5vste.streamlit.app/)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://machinelearning-project-feru5whjh836nnfrv5vste.streamlit.app/)
+
 ---
 
 ## 📌 Overview
